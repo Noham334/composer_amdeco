@@ -1,0 +1,24 @@
+{
+    "name": "hurtado/amdeco_web",
+    "description": "The project of amdeco in MVC",
+    "license": "propietary",
+    "autoload": {
+        "psr-4": {
+            "core\\": "src/core",
+            "app\\": "src/app"
+        },
+        "files": [
+            "src/config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Noham334",
+            "email": "israelmateus04@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    }
+}
